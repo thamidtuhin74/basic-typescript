@@ -71,3 +71,5 @@ let nameAge : [string , number] = ['tuhin', 114];
 // map in array using function
     const arr : number[] = [1,4,3,5];
     const newArray : number[] = arr.map((elem : number) : number => elem * elem)
+// -------------module 1.7------------------
+//Spread operator
