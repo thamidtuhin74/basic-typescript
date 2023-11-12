@@ -1,4 +1,7 @@
-// string
+{
+
+
+    // string
 let firstName : string = 'Al Tahmiduzzaman Tuhin';
 // number
 let roll : number = 114;
@@ -73,3 +76,6 @@ let nameAge : [string , number] = ['tuhin', 114];
     const newArray : number[] = arr.map((elem : number) : number => elem * elem)
 // -------------module 1.7------------------
 //Spread operator
+
+
+}

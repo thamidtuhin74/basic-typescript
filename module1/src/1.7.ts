@@ -32,6 +32,14 @@
 
     // -------------------------
 
-    // Rest Operator
-    
+    // Rest Operator start
+
+    const greetFriend = (...friends :string[]) =>{//'...friends' is a Rest Operator
+        // console.log(`Hi ${friend1}, ${friend2}`)
+        friends.forEach((friend: string) => console.log(friend))
+    }
+    greetFriend("alal","dulal","habul","Kabul","haxrat");
+
+    // Rest Operator End
+
 }
