@@ -33,7 +33,12 @@
     type User = {
         name : string;
         age : number;
-        presentAddress : string;
+        address:{
+            city:string;
+            road: string;
+            presentAddress : string;
+            permanentAddress? : string;
+        };
         contactNo : string;
         gender : "male" | "Female"; 
         bloodGroup : "O+"|"A+"|"B+"|"AB+";
@@ -43,13 +48,17 @@
     const user1: User = {
         name : 'tuhin',
         age : 24,
-        presentAddress : "Ghana",
+        address : {
+            city : "Rangpur",
+            road : "kakina Road",
+            presentAddress : "Ghana",
+        },
         contactNo : "01798908900",
         gender : "male",
         bloodGroup : "B+",
         email : "tuhin@gmail.com"
     }
-    const parmanentAddrees = user1.parmanentAddress??"No Parmanent Address is Available";
+    const parmanentAddrees = user1?.address?.permanentAddress ?? "No Parmanent Address is Available";
 
     console.log(parmanentAddrees);
 
