@@ -1,4 +1,4 @@
-// Type alias
+// Type alias (using for the primitive  and nonPrimitive data type | interface for the nonPrimitive)
 {
 // ------------ Type Alias For Object---------
     type student = {
