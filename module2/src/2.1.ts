@@ -27,4 +27,19 @@
     const test1 = kgTOGM(1000);
     const test2 = kgTOGM('2000') as string;// type assertion
 
+    // Solution of this error type unknown problem using assertion
+    // 'error' is of type 'unknown'.ts(18046)
+    // var error: unknown
+
+    type CustomError = {
+        message : string;
+    }
+    try{
+
+    }catch(error){
+
+        console.log((error as CustomError).message);//type assertion
+
+    }
+
 }
