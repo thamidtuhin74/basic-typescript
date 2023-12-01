@@ -29,4 +29,8 @@
 
     // ----------Generic Tuple---------
 
+    type GenericTuple<X,Y> = [X , Y];
+    const Couple: GenericTuple<string, string> = ['Mr. X','Mrs. Y'];
+    const userWithID: GenericTuple<number, {name:string,password:string}> = [147482 , {name: 'tuhin',password: 'tuhin1234'}]
+
 }
