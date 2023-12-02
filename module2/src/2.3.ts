@@ -1,5 +1,5 @@
 {
-    // generic type
+    // generic type with type alias
    
     // ----------IN Array---------
 
