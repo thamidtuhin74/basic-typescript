@@ -1,5 +1,5 @@
 {
-    // type guards -> typeof
+    // type guards -> typeof and in
 
     // typeof--> works in run time like as js
 
