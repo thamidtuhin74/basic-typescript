@@ -5,7 +5,10 @@
     }
     const res1 = createArray('Bangladesh');
 
-    // Generic Function --> Create A Array
+
+    // Generic_Function --> Create A Array
+
+    
     const createArrayGeneric = <T>(param: T):T[] =>{
         return [param]
     }
@@ -17,6 +20,10 @@
     };
     const resGenericObj =  createArrayGeneric<User>({id: 2301, name: 'Tuhin'});
 
+   
+   
+   
+   
     // Generic Function --> Create A Touple
 
     const createGeneicTouple = <T , Q> (param1: T , Param2: Q) :[T,Q]=>{
