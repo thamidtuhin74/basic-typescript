@@ -8,7 +8,7 @@
 
     // Generic_Function --> Create A Array
 
-    
+
     const createArrayGeneric = <T>(param: T):T[] =>{
         return [param]
     }
